@@ -1,0 +1,43 @@
+/*
+src/
+│
+├── assets/
+├── components/
+│   └── ProductCard.tsx
+│   └── Navbar.tsx
+│   └── Footer.tsx
+│   └── CartItem.tsx
+│
+├── pages/
+│   └── index.tsx              --> Home
+│   └── Products.tsx
+│   └── ProductDetails.tsx
+│   └── Cart.tsx
+│   └── Checkout.tsx
+│   └── Login.tsx
+│   └── Register.tsx
+│   └── PageNotFound.tsx
+│   └── Layout.tsx
+│
+├── router/
+│   └── index.tsx
+│
+├── interfaces/
+│   └── Product.ts
+│   └── User.ts
+│
+├── lib/
+│   └── api.ts
+│
+├── hooks/
+│   └── useCart.ts
+│   └── useAuth.ts
+│
+├── validation/
+│   └── loginValidation.ts
+│   └── registerValidation.ts
+│
+└── data/
+    └── dummyProducts.ts
+
+*/

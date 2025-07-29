@@ -2,14 +2,16 @@ import { RouterProvider } from "react-router-dom";
 import "./App.css";
 import router from "./router";
 import TopHeader from "./components/TopHeader";
+import HomeContent from "./components/home/HomeContent";
 
 function App() {
   return (
     <section>
       <TopHeader />
 
-      <div className="container px-1 sm:px-5 md:px-12">
+      <div>
         <RouterProvider router={router} />
+        <HomeContent />
       </div>
     </section>
   );
